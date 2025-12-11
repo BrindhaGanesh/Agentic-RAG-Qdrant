@@ -3,14 +3,19 @@ langgraph
 langchain
 langchain-core
 langchain-community
+langchain-tavily
 
 # LLM and Embeddings Provider
 langchain-google-genai # Using Google Gemini (Replace with langchain-openai if using OpenAI)
 google-genai
 langchain-openai
+sentence-transformers
+google-generativeai
+
+
 
 # Vector DB
-qdrant-client
+qdrant-client>=1.7.0
 langchain-qdrant
 
 # Utilities
@@ -18,6 +23,7 @@ python-dotenv
 tavily-python # For Web Search fallback (Optional)
 unstructured # For loading complex document types
 pypdf # For PDF loading
+pandas
 
 # Front-end
 chainlit
