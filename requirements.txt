@@ -1,0 +1,26 @@
+# RAG Core
+langgraph
+langchain
+langchain-core
+langchain-community
+
+# LLM and Embeddings Provider
+langchain-google-genai # Using Google Gemini (Replace with langchain-openai if using OpenAI)
+google-genai
+langchain-openai
+
+# Vector DB
+qdrant-client
+langchain-qdrant
+
+# Utilities
+python-dotenv
+tavily-python # For Web Search fallback (Optional)
+unstructured # For loading complex document types
+pypdf # For PDF loading
+
+# Front-end
+chainlit
+
+# Data Download
+kaggle
